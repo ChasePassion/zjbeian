@@ -94,8 +94,13 @@ export default async function InfoPage() { // Make the component async
       </main>
 
       <footer className="bg-white dark:bg-gray-800 mt-12 py-6 text-center border-t dark:border-gray-700">
-        <p className="text-sm text-gray-600 dark:text-gray-400">
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
           &copy; {new Date().getFullYear()} 校园信息通. All rights reserved.
+        </p>
+        <p className="text-sm text-gray-600 dark:text-gray-400">
+          <a href="https://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">
+            粤ICP备2025419036号-1
+          </a>
         </p>
       </footer>
     </div>
