@@ -11,10 +11,6 @@ interface SectionProps {
   markdownContent?: string; 
 }
 
-interface InfoPageProps {
-  sectionsWithContent: SectionProps[];
-}
-
 // Helper function to fetch and process sections
 async function getSectionsWithContent(): Promise<SectionProps[]> {
   const sectionsBase: Omit<SectionProps, 'markdownContent'>[] = [
